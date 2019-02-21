@@ -83,7 +83,6 @@ The `LoadBalancer` type spins up a load balancer in GCP automatically.
 1. To expose the application we create a Service with the type of LoadBalancer:
 ```
 kubectl expose deployment link-unshorten --type=LoadBalancer
-
 ```
 
 2. We can now see our new Service details by running the following command:
